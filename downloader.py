@@ -15,7 +15,14 @@ chapters = {
     '1319': range(1, 50),
     '1320': range(1, 50),
     '1321': range(1, 50),
-    '1322': range(1, 50)
+    '1322': range(1, 50),
+    '1324': range(1, 50),
+    '1325': range(1, 50),
+    '1326': range(1, 50),
+    '1327': range(1, 50),
+    '1328': range(1, 50),
+    '1329': range(1, 50)
+    # '1330': range(1, 50)
 }
 
 headers = {"Cookie": "ASP.NET_SessionId=<<CRED>>; Username=<<CRED>>; ASPSESSIONIDSCVTDSRQ=<<CRED>>;"}

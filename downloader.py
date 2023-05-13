@@ -80,7 +80,7 @@ for chapterName in chapterNames:
 
 	for pageNum in pageNums:
 		print(f'Chapter {chapterName} page number {pageNum}')
-		URL = f"https://americanflyers.net/content/browser/chapter.aspx?CID={chapterName}&Page={pageNum}"
+		URL = f"https://firc.americanflyers.com/content/browser/chapter.aspx?CID={chapterName}&Page={pageNum}"
 
 		resp = requests.get(url=URL, headers=headers)  # , params = PARAMS)
 		soup = BeautifulSoup(resp.text, features="html.parser")
